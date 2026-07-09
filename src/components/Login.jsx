@@ -12,7 +12,7 @@ const highlights = [
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export default function Login({ onLogin }) {
-  const [form, setForm] = useState({ email: "admin@constructpro.in", password: "Admin@123", remember: true });
+  const [form, setForm] = useState({ email: "", password: "", remember: true });
   const [error, setError] = useState("");
   const [fieldErrors, setFieldErrors] = useState({});
   const [loading, setLoading] = useState(false);

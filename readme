@@ -1,0 +1,2 @@
+root@ubuntu-s-1vcpu-512mb-10gb-blr1:~/buildPro# sudo cp -r dist/* /var/www/html/
+root@ubuntu-s-1vcpu-512mb-10gb-blr1:~/buildPro# sudo systemctl restart nginx
